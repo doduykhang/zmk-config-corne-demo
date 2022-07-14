@@ -14,14 +14,6 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        new_combo {
-            bindings = <&kp BSPC>;
-            key-positions = <16 19>;
-        };
-    };
 
     keymap {
         compatible = "zmk,keymap";
