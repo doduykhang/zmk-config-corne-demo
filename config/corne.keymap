@@ -29,9 +29,9 @@
 
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            hold-trigger-key-positions = <14 15 13 16 19 20 21 22>;
-            tapping-term-ms = <1000>;
-            quick-tap-ms = <500>;
+            hold-trigger-key-positions = <>;
+            tapping-term-ms = <150>;
+            quick-tap-ms = <0>;
         };
     };
 
