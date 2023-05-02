@@ -24,12 +24,14 @@
             compatible = "zmk,behavior-hold-tap";
             label = "NEW_BEHAVIOR";
             bindings =
-                <&none>,
-                <&none>;
+                <&kp>,
+                <&kp>;
 
             #binding-cells = <2>;
             flavor = "tap-preferred";
             hold-trigger-key-positions = <14 15 13 16 19 20 21 22>;
+            tapping-term-ms = <400>;
+            quick-tap-ms = <200>;
         };
     };
 
