@@ -28,10 +28,10 @@
                 <&kp>;
 
             #binding-cells = <2>;
-            flavor = "tap-preferred";
-            hold-trigger-key-positions = <>;
-            tapping-term-ms = <150>;
-            quick-tap-ms = <0>;
+            flavor = "tap-unless-interrupted";
+            hold-trigger-key-positions = <13 14 15 16 19 20 21 22>;
+            tapping-term-ms = <100>;
+            quick-tap-ms = <200>;
         };
     };
 
